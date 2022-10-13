@@ -2,6 +2,8 @@
 
 Kodluyoruz front end eğitimi kapsamında verilen proje için tasarlanmıştır.
 
+[patika.dev](https://www.patika.dev)
+
 ![preview1](/assets/preview.png)
 ![preview2](/assets/preview2.png)
 
