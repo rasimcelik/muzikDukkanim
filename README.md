@@ -15,7 +15,9 @@ Kodluyoruz front end eğitimi kapsamında verilen proje için tasarlanmıştır.
 
 Projeyi cloneladıktan sonra VS Code ile açınız.
 Terminal:
-`cd muzikDukkanim\ncode .`
+`cd muzikDukkanim`
+İkinci olarak:
+`code .`
 
 # Contributing
 
