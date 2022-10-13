@@ -1,0 +1,166 @@
+/* IMPORTING GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap");
+
+/* ALL INCLUDED SETTING */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8ea;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+/* NAVBAR  */
+.brand {
+  text-align: center;
+  font-size: 20px;
+  padding: 2rem;
+  color: #594545;
+  letter-spacing: 4px;
+  margin-left: 2.8rem;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.links li {
+  list-style: none;
+}
+.links li a {
+  margin-left: 3rem;
+  list-style: none;
+  text-decoration: none;
+  color: #876565;
+  font-size: 16px;
+}
+.links li a:hover {
+  font-size: 16.5px;
+  color: #a43939;
+  transition: 300ms ease-in-out;
+}
+
+/* HOME PAGE */
+.titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #815b5b;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.inlineAtag {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #594545;
+}
+.inlineAtag:hover {
+  font-size: 16.5px;
+  font-weight: 600;
+  color: #2d0f0f;
+  transition: 200ms ease-in-out;
+  text-decoration: underline;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #30309f;
+  margin-bottom: 1rem;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.cards-ul {
+  display: flex;
+}
+.cards-ul li {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding: 3rem;
+  text-decoration: none;
+  display: grid;
+  text-align: center;
+  border: 0px solid;
+  box-shadow: 0.4px 1px 1px rgb(65, 34, 2);
+  border-radius: 20px;
+}
+img {
+  width: 6rem;
+  margin-bottom: 3rem;
+}
+
+/* ÜRÜNLER */
+.products {
+  height: 100vh;
+}
+.products-ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  list-style-type: none;
+}
+.products-ul a {
+  text-decoration: none;
+}
+.products-ul li {
+  padding: 2rem;
+  text-decoration: none;
+}
+.products-ul li img {
+  width: 180px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-ul li img:hover {
+  width: 185px;
+  height: 225px;
+  transition: 300ms ease-in-out;
+}
+
+/* ABOUT US */
+.aboutC {
+  width: 70vw;
+}
+.aboutP {
+  font-size: 14px;
+}
+
+.products .products-ul a li img {
+  border-radius: 50px;
+}
+.products .products-ul a li img:hover {
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px 1px black;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
