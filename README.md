@@ -2,8 +2,8 @@
 
 Kodluyoruz front end eğitimi kapsamında verilen proje için tasarlanmıştır.
 
-![preview1](/assets/preview.png.jpg)
-![preview2](/assets/preview2.png.jpg)
+![preview1](/assets/preview.png)
+![preview2](/assets/preview2.png)
 
 # Installation
 
